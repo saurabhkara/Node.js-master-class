@@ -88,6 +88,8 @@ console.log("Host", os.hostname());
 console.log("Architecture", os.arch());
 ```
 
-### Project on monitering system and memory usage using inbuild module(OS)
+### Project on monitering system and memory usage using inbuild module(OS) and third party
 
 - Please check `moniter.js` file
+
+![alt text](<Screenshot (299).png>)

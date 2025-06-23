@@ -1,4 +1,5 @@
 import os from "node:os";
+import chalk from "chalk";
 
 function moniter() {
   //Take a snapsort
@@ -17,6 +18,7 @@ function moniter() {
     });
 
     console.clear();
+    console.log(chalk.bgCyan("======System status========="));
     console.table(calculatedData);
 
     const totalMemory = os.totalmem();
@@ -39,6 +41,7 @@ function calculateCpus(oldCpus, newCpus) {
   const used = total - idle;
   return ((used * 100) / total).toFixed(1);
 }
+
 setInterval(() => {
   moniter();
 }, 1000);
