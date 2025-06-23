@@ -91,5 +91,27 @@ console.log("Architecture", os.arch());
 ### Project on monitering system and memory usage using inbuild module(OS) and third party
 
 - Please check `moniter.js` file
+- To run this project hit this command `node moniter.js` in cmd
 
 ![alt text](<Screenshot (299).png>)
+
+### Synchronous and blocking code
+
+Synchronous execution usually uses to code executing in sequence and the program is executed line by line, one line at a time. When a function is called, the program execution waits until that function returns before continuing to the next line of code.
+
+### Asynchronous and non-blocking code
+
+Asynchronous execution applies to execution that doesn’t run in the sequence it appears in the code. The program doesn’t wait for the task to complete and can move on to the next task.
+
+### File system in Node.js
+
+- Create File
+- Update File
+- Get File Detail
+- Create Folder
+- Delete Files
+- Write file
+- Appending data into file
+- Folder removal
+
+- check `fs.js` file for above operation
