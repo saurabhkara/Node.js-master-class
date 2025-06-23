@@ -1,0 +1,24 @@
+{
+  "name": "nodejs25",
+  "version": "1.0.0",
+  "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhkara/Node.js-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhkara/Node.js-Learning/issues"
+  },
+  "homepage": "https://github.com/saurabhkara/Node.js-Learning#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}

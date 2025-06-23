@@ -87,3 +87,7 @@ console.log("Up time", os.uptime() / (60 * 60)); // Time in Hours
 console.log("Host", os.hostname());
 console.log("Architecture", os.arch());
 ```
+
+### Project on monitering system and memory usage using inbuild module(OS)
+
+- Please check `moniter.js` file
