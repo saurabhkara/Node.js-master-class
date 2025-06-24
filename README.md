@@ -115,3 +115,18 @@ Asynchronous execution applies to execution that doesn’t run in the sequence i
 - Folder removal
 
 - check `fs.js` file for above operation
+
+### Project File manager
+
+This project is about file management using interactive command line prompt
+User can perform following operations using cmd
+
+- Folder can created using cmd
+- File can created using cmd
+- File content can updated
+- Files can be deleted using cmd
+- Folders can be deleted using cmd
+
+`node:fs`, `node:path` and `chalk` modules used in this project.
+
+![alt text](<Screenshot (301).png>)
