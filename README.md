@@ -137,3 +137,7 @@ When sending data from server to client, it is recomended to use stream mechanis
 
 - Run this `server.js` file to see api created using `Node.js`
 - GET and POST both methods are created for expense tracker
+
+### Server Sent Events (SSE)
+
+- check `sseServer.js` for SSE
