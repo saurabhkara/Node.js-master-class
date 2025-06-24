@@ -130,3 +130,10 @@ User can perform following operations using cmd
 `node:fs`, `node:path` and `chalk` modules used in this project.
 
 ![alt text](<Screenshot (301).png>)
+
+### HTTP Server and Streaming
+
+When sending data from server to client, it is recomended to use stream mechanism
+
+- Run this `server.js` file to see api created using `Node.js`
+- GET and POST both methods are created for expense tracker
